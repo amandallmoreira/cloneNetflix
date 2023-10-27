@@ -3,7 +3,8 @@
  Um clone da Netflix desenvolvido nas aulas do SENAI, no curso de FrontEnd, 2023, com HTML, CSS e Flexbox.
  Projeto utilizado como revisão e prática dos conteúdos de HTML e CSS. 
  <br>
-![NetflixNetflixStartupGIF](https://github.com/amandallmoreira/cloneNetflix/assets/138037027/8edd5848-ee1b-439f-a082-9fcc86af8910)
+
+ ![NetflixNetflixStartupGIF (2)](https://github.com/amandallmoreira/cloneNetflix/assets/138037027/6db07cfb-9637-4f38-86d0-ca78f80860a9)
 
 - ETAPAS
   🟢 FINALIZADO
