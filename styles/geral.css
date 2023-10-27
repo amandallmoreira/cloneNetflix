@@ -4,29 +4,58 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,p, li a{
+h1,h2,h3,h4,h5,h6,p,li a{
     color:white;
+}
 
+#pagina, {
+    width: 100%;
+    
+}
+
+header, main, footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
-#pagina, header, main, footer{
+header, footer{
+    height: 60px;
     background-color: black;
+
+}
+aside{
+    width:50%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    
 }
 
-nav{
+#asideEsquerda{
+    justify-content: center;
+}
+#asideDireita{
+    justify-content: end;
+}
+
+.imagem{
+    width:100%;
+}
+#logo{
+    width: 200px;
+    height:100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+nav{ 
 
 }
 
 ul li{
     list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     
 }
