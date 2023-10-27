@@ -1,11 +1,15 @@
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+
+
 *{
     padding: 0%;
     margin: 0%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6,p,li a{
+    font-family: Netflix Sans;
     color:white;
+  
 }
 
 #pagina, {
@@ -13,7 +17,7 @@ h1,h2,h3,h4,h5,h6,p,li a{
     
 }
 
-header, main, footer{
+header, main, footer, #secoesDeSeries, .produtos{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -40,9 +44,54 @@ aside{
     justify-content: end;
 }
 
+/*SEÇÃO DE SÉRIES*/
+#secoesDeSeries{
+    flex-direction: column;
+    background-color: black;
+    gap:20px;
+    align-items: center;
+
+}
+
+.fila{
+    width: 95%;
+    height: 200px;
+
+}
+.fila h2{
+    margin:12px;
+    font-weight: bold;
+}
+.produtos{
+    height:150px;
+    gap:5px;
+}
+
+.item{
+    width: 200px;
+    height: 100%;   /*Segue a altura de produtos*/
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+#item1{
+    background-image: url("../icons/images/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png");
+}
+#item2{
+    background-image: url("../icons/images/uglyDelicious.png");
+}
+#item3{
+    background-image: url("../icons/images/laCasaDePapel.png");
+}
+#item4{
+    background-image:url("../icons/images/houseOfCards.png")
+
+}
 .imagem{
     width:100%;
 }
+
 #logo{
     width: 200px;
     height:100%;
@@ -51,11 +100,14 @@ aside{
     align-items: center;
 }
 
-nav{ 
+nav ul{ 
+    display: flex;
+    gap: 20px;
 
 }
 
-ul li{
+ul{
     list-style: none;
+
     
 }
